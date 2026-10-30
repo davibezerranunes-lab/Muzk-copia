@@ -28,10 +28,11 @@ jobs:
         with:
           packages: 'platforms;android-35 build-tools;35.0.0'
 
-      - name: Remover recurso inválido
+            - name: Remover recursos inválidos
         run: |
-          rm -f Muzk-AndroidStudio/app/src/main/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png
-
+          find Muzk-AndroidStudio/app/src/main/res -type f -name "abc_list_divider_mtrl_alpha.9.png" -delete
+          find Muzk-AndroidStudio/app/src/main/res -type f -name "*.9.png" -print
+          
       - name: Compilar APK
         run: |
           cd Muzk-AndroidStudio
