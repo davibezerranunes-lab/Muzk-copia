@@ -18,6 +18,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: Instalar Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
       - name: Configurar Android SDK
         uses: android-actions/setup-android@v3
         with:
@@ -26,8 +31,7 @@ jobs:
       - name: Compilar APK
         run: |
           cd Muzk-AndroidStudio
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          gradle assembleDebug
 
       - name: Salvar APK
         uses: actions/upload-artifact@v4
