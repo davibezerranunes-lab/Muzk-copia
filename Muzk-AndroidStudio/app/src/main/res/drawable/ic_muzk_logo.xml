@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="30dp"
+    android:width="34dp"
+    android:viewportWidth="300"
+    android:viewportHeight="264">
+    <group android:translateY="-8">
+        <path
+            android:pathData="M80,160 V62 A22,22 0 0 1 124,62 V218 A22,22 0 0 0 168,218 V112 A22,22 0 0 1 212,112 V160"
+            android:strokeColor="@drawable/_ic_muzk_logo__0_res_0x7f080008"
+            android:strokeWidth="36"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"/>
+        <path
+            android:fillColor="@drawable/_ic_muzk_logo__1_res_0x7f080009"
+            android:pathData="M12,148 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0 M244,148 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0"/>
+    </group>
+</vector>

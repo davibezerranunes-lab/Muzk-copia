@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/homeFragment">
+    <fragment
+        android:label="@string/app_name"
+        android:name="com.muzk.app.ui.home.HomeFragment"
+        android:id="@+id/homeFragment"/>
+    <fragment
+        android:label="@string/tab_search"
+        android:name="com.muzk.app.ui.search.SearchFragment"
+        android:id="@+id/searchFragment"/>
+    <fragment
+        android:label="@string/tab_library"
+        android:name="com.muzk.app.ui.library.LibraryFragment"
+        android:id="@+id/libraryFragment"/>
+    <fragment
+        android:label="@string/tab_settings"
+        android:name="com.muzk.app.ui.settings.SettingsFragment"
+        android:id="@+id/settingsFragment"/>
+    <fragment
+        android:label=" "
+        android:name="com.muzk.app.ui.player.PlayerFragment"
+        android:id="@+id/playerFragment"/>
+    <action
+        android:id="@+id/action_open_player"
+        app:destination="@+id/playerFragment"
+        app:enterAnim="@anim/slide_up"
+        app:exitAnim="@anim/fade_out"
+        app:launchSingleTop="true"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/slide_down"/>
+</navigation>

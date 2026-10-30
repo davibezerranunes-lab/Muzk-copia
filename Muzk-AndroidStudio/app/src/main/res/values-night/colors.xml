@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_tint">#554330c2</color>
+    <color name="player_tint">#994330c2</color>
+    <color name="player_track_inactive">#4dffffff</color>
+</resources>

@@ -1,0 +1,7 @@
+Status: primeira montagem automatizada a partir do APK e do JADX.
+Package: com.muzk.app
+Min SDK: 26
+Target SDK: 35
+Version: 1.0
+Inclui fontes reconstruídos, recursos e bibliotecas nativas.
+Ainda NÃO validado por compilação nem teste em aparelho.

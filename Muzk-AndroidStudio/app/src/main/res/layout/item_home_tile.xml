@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
+    app:cardCornerRadius="6dp"
+    style="?attr/materialCardViewFilledStyle">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/icon_box"
+            android:background="?attr/colorSecondaryContainer"
+            android:layout_width="56dp"
+            android:layout_height="56dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                app:tint="?attr/colorOnSecondaryContainer"/>
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:importantForAccessibility="no"/>
+        </FrameLayout>
+        <TextView
+            android:textAppearance="?attr/textAppearanceLabelLarge"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
