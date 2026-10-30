@@ -53,5 +53,5 @@ dependencies {
     implementation 'io.coil-kt:coil-base:2.7.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.0.21'
-    implementation 'com.github.yausername.youtubedl-android:library:0.17.2'
+    implementation 'com.github.yausername.youtubedl-android:library:0.15.0'
 }
