@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark">
+    </style>
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth">
+    </style>
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge">
+    </style>
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar">
+    </style>
+    <style name="Theme.Material3.DayNight.SideSheetDialog" parent="@style/Theme.Material3.Dark.SideSheetDialog">
+    </style>
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark">
+    </style>
+    <style name="Theme.Material3.DynamicColors.DayNight.NoActionBar" parent="@style/Theme.Material3.DynamicColors.Dark.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge">
+    </style>
+    <style name="Theme.Muzk" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:popupMenuStyle">@style/Widget.Muzk.PopupMenu</item>
+        <item name="colorOnPrimary">@color/muzk_on_primary_dark</item>
+        <item name="colorOnPrimaryContainer">@color/muzk_on_primary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/muzk_on_secondary_container_dark</item>
+        <item name="colorPrimary">@color/muzk_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/muzk_primary_container_dark</item>
+        <item name="colorSecondaryContainer">@color/muzk_secondary_container_dark</item>
+        <item name="materialIconButtonFilledStyle">@style/Widget.Muzk.IconButton.Filled</item>
+        <item name="materialIconButtonFilledTonalStyle">@style/Widget.Muzk.IconButton.FilledTonal</item>
+        <item name="materialIconButtonStyle">@style/Widget.Muzk.IconButton</item>
+        <item name="popupMenuStyle">@style/Widget.Muzk.PopupMenu</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="snackbarButtonStyle">@style/Widget.Muzk.Snackbar.Button</item>
+        <item name="snackbarStyle">@style/Widget.Muzk.Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/Widget.Muzk.Snackbar.Text</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark">
+    </style>
+    <style name="ThemeOverlay.Muzk.Blue" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#4d8dff</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorOnPrimaryContainer">#d8e2ff</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="colorOnSecondaryContainer">#d8e2ff</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#4d8dff</item>
+        <item name="colorPrimaryContainer">#12357a</item>
+        <item name="colorSecondary">#4d8dff</item>
+        <item name="colorSecondaryContainer">#12357a</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#4d8dff</item>
+    </style>
+    <style name="ThemeOverlay.Muzk.Brand" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#4fb3ff</item>
+        <item name="colorOnPrimary">#00213d</item>
+        <item name="colorOnPrimaryContainer">#ffffff</item>
+        <item name="colorOnSecondary">#00213d</item>
+        <item name="colorOnSecondaryContainer">#ffffff</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#4fb3ff</item>
+        <item name="colorPrimaryContainer">#1d4ed8</item>
+        <item name="colorSecondary">#4fb3ff</item>
+        <item name="colorSecondaryContainer">#1d4ed8</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#4fb3ff</item>
+    </style>
+    <style name="ThemeOverlay.Muzk.Green" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#1ed760</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryContainer">#b6f5cd</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorOnSecondaryContainer">#b6f5cd</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#1ed760</item>
+        <item name="colorPrimaryContainer">#0f4a2a</item>
+        <item name="colorSecondary">#1ed760</item>
+        <item name="colorSecondaryContainer">#0f4a2a</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#1ed760</item>
+    </style>
+    <style name="ThemeOverlay.Muzk.Orange" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#ff7a3d</item>
+        <item name="colorOnPrimary">#2a0d00</item>
+        <item name="colorOnPrimaryContainer">#ffdbcb</item>
+        <item name="colorOnSecondary">#2a0d00</item>
+        <item name="colorOnSecondaryContainer">#ffdbcb</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#ff7a3d</item>
+        <item name="colorPrimaryContainer">#6a2a08</item>
+        <item name="colorSecondary">#ff7a3d</item>
+        <item name="colorSecondaryContainer">#6a2a08</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#ff7a3d</item>
+    </style>
+    <style name="ThemeOverlay.Muzk.Pink" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#ff4f8b</item>
+        <item name="colorOnPrimary">#2b0012</item>
+        <item name="colorOnPrimaryContainer">#ffd9e4</item>
+        <item name="colorOnSecondary">#2b0012</item>
+        <item name="colorOnSecondaryContainer">#ffd9e4</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#ff4f8b</item>
+        <item name="colorPrimaryContainer">#6b1035</item>
+        <item name="colorSecondary">#ff4f8b</item>
+        <item name="colorSecondaryContainer">#6b1035</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#ff4f8b</item>
+    </style>
+    <style name="ThemeOverlay.Muzk.Purple" parent="">
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorControlActivated">#9d6bff</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorOnPrimaryContainer">#e9ddff</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="colorOnSecondaryContainer">#e9ddff</item>
+        <item name="colorOnSurface">#ffffff</item>
+        <item name="colorOnSurfaceVariant">#b3b3b3</item>
+        <item name="colorOutline">#5c5c5c</item>
+        <item name="colorOutlineVariant">#3a3a3a</item>
+        <item name="colorPrimary">#9d6bff</item>
+        <item name="colorPrimaryContainer">#3b1f7a</item>
+        <item name="colorSecondary">#9d6bff</item>
+        <item name="colorSecondaryContainer">#3b1f7a</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorSurfaceContainer">#1c1c1c</item>
+        <item name="colorSurfaceContainerHigh">#242424</item>
+        <item name="colorSurfaceContainerHighest">#2e2e2e</item>
+        <item name="colorSurfaceContainerLow">#181818</item>
+        <item name="colorSurfaceContainerLowest">#0b0b0b</item>
+        <item name="colorTertiary">#9d6bff</item>
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface">
+    </style>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface">
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar">
+    </style>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView">
+    </style>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView">
+    </style>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout">
+    </style>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface">
+    </style>
+</resources>
